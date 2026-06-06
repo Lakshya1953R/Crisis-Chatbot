@@ -1,0 +1,270 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "description": "hello hi greet welcome meet introduction start conversation",
+      "responses": [
+        "Hello! I'm your offline assistant. I'm here to help with first aid, emergencies, health, and emotional support. What do you need?",
+        "Hi there! I'm ready to help you. Whether it's an emergency, health question, or you just need someone to talk to — I'm here.",
+        "Hey! I'm your crisis and support assistant. How can I help you today?"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "description": "bye goodbye exit quit leave end conversation farewell",
+      "responses": [
+        "Take care of yourself. Remember — you're never alone. Goodbye! 💙",
+        "Stay safe! I'm always here whenever you need help.",
+        "Goodbye! You did great reaching out today. Take care. 💙"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "description": "thank you thanks grateful appreciate helpful gratitude",
+      "responses": [
+        "You're very welcome! I'm always here if you need anything else. 💙",
+        "Glad I could help! Don't hesitate to ask anything anytime.",
+        "Of course! Take care of yourself. 💙"
+      ]
+    },
+    {
+      "tag": "first_aid_bleeding",
+      "description": "bleeding wound cut injury blood loss hemorrhage gash scratch",
+      "responses": [
+        "🩸 For bleeding:\n1. Press firmly on the wound with a clean cloth\n2. Keep pressure for at least 10 minutes — do NOT check in between\n3. Do NOT remove the cloth if it soaks through — add more on top\n4. Elevate the injured area above heart level\n5. Do NOT remove any embedded object\n6. Seek medical help if bleeding doesn't stop in 15 minutes"
+      ]
+    },
+    {
+      "tag": "first_aid_burns",
+      "description": "burn scald fire hot blister skin damage heat chemical steam cooking",
+      "responses": [
+        "🔥 For burns:\n1. Cool the burn under cold running water for 10-20 minutes\n2. Do NOT use ice, butter, toothpaste or any home remedy\n3. Remove jewelry or tight items near the burn gently\n4. Cover loosely with a clean non-fluffy bandage\n5. Do NOT pop any blisters — risk of infection\n6. For chemical burns — flush with lots of water for 20 minutes\n7. Seek medical help for large, deep, or facial burns"
+      ]
+    },
+    {
+      "tag": "first_aid_choking",
+      "description": "choking throat stuck breathing difficulty food swallow airway blocked gasping",
+      "responses": [
+        "😮 For choking:\n1. Ask 'Are you choking?' — if they can cough, encourage forceful coughing\n2. Give 5 firm back blows between shoulder blades with heel of hand\n3. Give 5 abdominal thrusts (Heimlich maneuver) — hands above navel, push inward and upward\n4. Alternate back blows and abdominal thrusts until object dislodges\n5. For infants — use back blows and chest thrusts only\n6. If person becomes unconscious — begin CPR immediately\n7. Call emergency services right away"
+      ]
+    },
+    {
+      "tag": "first_aid_cpr",
+      "description": "cpr resuscitation unconscious not breathing heart stopped cardiac arrest collapsed pulse",
+      "responses": [
+        "❤️ For CPR:\n1. Check responsiveness — tap shoulders and shout their name\n2. Call emergency services immediately\n3. Lay person on firm flat surface on their back\n4. Place heel of hand on center of chest between nipples\n5. Push hard and fast — at least 2 inches deep, 100-120 per minute\n6. Give 2 rescue breaths after every 30 compressions\n7. Tilt head, lift chin, pinch nose, seal mouth and breathe for 1 second\n8. Continue until emergency help arrives or person recovers"
+      ]
+    },
+    {
+      "tag": "first_aid_fracture",
+      "description": "fracture broken bone crack injury splint immobilize swelling limb",
+      "responses": [
+        "🦴 For fractures:\n1. Do NOT try to straighten the bone — leave it as is\n2. Immobilize the injured area using a splint or padding\n3. Apply ice wrapped in cloth to reduce swelling — 20 minutes on, 20 off\n4. Keep the injured limb elevated if possible\n5. Do NOT let the person put weight on the injury\n6. Watch for swelling, numbness, or color change\n7. Seek immediate medical attention — X-ray is needed"
+      ]
+    },
+    {
+      "tag": "first_aid_poison",
+      "description": "poison toxic swallow chemical overdose ingestion medication drug substance",
+      "responses": [
+        "☠️ For poisoning:\n1. Stay calm and call emergency services immediately\n2. Do NOT make the person vomit unless instructed by medical staff\n3. If person is unconscious — place them in recovery position\n4. Try to identify what was swallowed — keep the container\n5. Note the time it was swallowed and how much\n6. Do NOT give food, water, or milk unless told to\n7. For skin contact — remove clothing and flush skin with water\n8. For eye contact — flush eyes with clean water for 15-20 minutes"
+      ]
+    },
+    {
+      "tag": "first_aid_head_injury",
+      "description": "head injury concussion skull trauma hit knock dizzy vomiting confusion",
+      "responses": [
+        "🧠 For head injuries:\n1. Keep the person still and calm — do NOT move them unnecessarily\n2. If unconscious and breathing — place in recovery position\n3. Control bleeding with gentle pressure — do NOT press hard on skull\n4. Do NOT remove helmets or objects stuck in the wound\n5. Watch for danger signs: confusion, vomiting, unequal pupils, seizures\n6. Do NOT give aspirin or ibuprofen — increases bleeding risk\n7. Seek immediate medical attention for ANY head injury"
+      ]
+    },
+    {
+      "tag": "first_aid_sprain",
+      "description": "sprain twist ankle wrist knee joint ligament swollen pain movement",
+      "responses": [
+        "🦶 For sprains — use RICE method:\n1. REST — stop activity immediately\n2. ICE — apply ice wrapped in cloth for 20 minutes every 2-3 hours\n3. COMPRESSION — wrap with a bandage firmly but not too tight\n4. ELEVATION — raise the injured area above heart level\n5. Avoid heat, alcohol, and massage for the first 72 hours\n6. See a doctor if you cannot bear any weight or pain is severe"
+      ]
+    },
+    {
+      "tag": "earthquake",
+      "description": "earthquake tremor ground shaking seismic disaster building collapse aftershock",
+      "responses": [
+        "🌍 During earthquake:\n1. DROP to hands and knees immediately\n2. Take COVER under a sturdy desk, table, or against interior wall\n3. HOLD ON until shaking stops\n4. Stay away from windows, glass, heavy furniture\n5. If outdoors — move away from buildings, trees, and power lines\n6. If driving — pull over away from bridges and overpasses\n7. After shaking — check for injuries and gas leaks\n8. Expect aftershocks — stay alert"
+      ]
+    },
+    {
+      "tag": "flood",
+      "description": "flood water rising rain flash flood evacuation waterlogged drowning river overflow",
+      "responses": [
+        "🌊 During flood:\n1. Move immediately to higher ground — do NOT wait\n2. Do NOT walk through moving water — 6 inches can knock you down\n3. Do NOT drive through flooded roads\n4. Turn off electricity at the main switch before water enters\n5. Avoid contact with floodwater — it may be contaminated\n6. Take emergency kit — water, food, medicines, documents, torch\n7. Wait for official all-clear before returning home"
+      ]
+    },
+    {
+      "tag": "fire",
+      "description": "fire smoke flames burning evacuation escape house kitchen electrical gas",
+      "responses": [
+        "🔥 During fire:\n1. GET OUT immediately — do NOT collect belongings\n2. Alert everyone — shout FIRE and activate alarm\n3. Crawl low under smoke — cleaner air is near the floor\n4. Feel doors before opening — if hot, use another exit\n5. Close doors behind you to slow fire spread\n6. For kitchen fire — smother with lid, never use water on oil fires\n7. For electrical fire — cut power first\n8. Once outside — call fire services and NEVER go back in\n9. NEVER use elevators"
+      ]
+    },
+    {
+      "tag": "cyclone",
+      "description": "cyclone hurricane typhoon storm surge strong winds tropical disaster evacuation",
+      "responses": [
+        "🌀 During cyclone:\n1. Move to a strong well-built shelter immediately\n2. Stay away from windows and doors\n3. Store enough water and food for at least 3 days\n4. Keep emergency kit ready — torch, radio, medicines, documents\n5. Unplug all electrical appliances\n6. If caught outside — lie flat in a ditch away from trees\n7. After cyclone — watch for fallen power lines and damaged structures\n8. Do NOT go outside during the eye of the cyclone — it will resume"
+      ]
+    },
+    {
+      "tag": "power_outage",
+      "description": "power outage blackout electricity cut no light generator battery backup",
+      "responses": [
+        "💡 During power outage:\n1. Use torches or flashlights — avoid candles to reduce fire risk\n2. Keep fridge and freezer doors closed — food safe for 4 hours\n3. Unplug sensitive electronics to avoid damage from power surges\n4. Use battery-powered radio for emergency updates\n5. Check on elderly or vulnerable neighbors\n6. NEVER use generators indoors — carbon monoxide risk\n7. Keep mobile phones charged using power banks"
+      ]
+    },
+    {
+      "tag": "landslide",
+      "description": "landslide mudslide rockfall slope collapse hill debris flow ground sliding",
+      "responses": [
+        "⛰️ During landslide:\n1. Move away quickly — get out of the path immediately\n2. If indoors — move to upper floors away from sliding direction\n3. If outdoors — run to the nearest high ground\n4. Avoid river valleys and low-lying areas during heavy rain\n5. Listen for unusual sounds — cracking trees, rumbling\n6. After landslide — stay away from slide area, risk of more slides\n7. Report to emergency services immediately"
+      ]
+    },
+    {
+      "tag": "fever",
+      "description": "fever high temperature chills sweating body heat sick illness cold flu",
+      "responses": [
+        "🌡️ For fever:\n1. Rest and drink plenty of fluids — water, juice, clear broth\n2. Take paracetamol or ibuprofen as directed\n3. Use a cool damp cloth on forehead, armpits, and neck\n4. Wear light clothing — avoid bundling up\n5. Keep room cool and ventilated\n6. Seek medical help if:\n   • Fever above 39.4°C in adults\n   • Any fever in infants under 3 months\n   • Fever lasting more than 3 days\n   • Accompanied by stiff neck, rash, or confusion"
+      ]
+    },
+    {
+      "tag": "dehydration",
+      "description": "dehydration thirsty no water dry mouth dizziness weakness fatigue fluid loss",
+      "responses": [
+        "💧 For dehydration:\n1. Drink small sips of water frequently — don't gulp\n2. Best solution — ORS: Mix 1 liter water + 6 teaspoons sugar + half teaspoon salt\n3. Avoid tea, coffee, or alcohol — they worsen dehydration\n4. Rest in a cool shaded area\n5. Eat water-rich foods — fruits, soups, yogurt\n6. Seek immediate help if:\n   • No urination for 8+ hours\n   • Extreme confusion or dizziness\n   • Rapid heartbeat in children"
+      ]
+    },
+    {
+      "tag": "snake_bite",
+      "description": "snake bite venom poison reptile fang puncture wound swelling toxic",
+      "responses": [
+        "🐍 For snake bite:\n1. Keep calm and stay completely still — movement spreads venom faster\n2. Immobilize the bitten limb and keep it below heart level\n3. Remove tight clothing, watches, or jewelry near the bite\n4. Mark the edge of swelling with a pen and note the time\n5. Do NOT cut the wound, suck venom, apply tourniquet, or ice\n6. Do NOT give alcohol or pain medication\n7. Get to a hospital IMMEDIATELY — antivenom is the only cure"
+      ]
+    },
+    {
+      "tag": "heart_attack",
+      "description": "heart attack chest pain cardiac crushing tightness arm jaw sweating nausea",
+      "responses": [
+        "❤️ For suspected heart attack:\n1. Call emergency services immediately — every minute matters\n2. Have person sit or lie in comfortable position\n3. Loosen tight clothing around neck and chest\n4. Give aspirin 300mg to chew if conscious and not allergic\n5. Stay calm and reassure the person\n6. Do NOT leave them alone\n7. If unconscious and not breathing — begin CPR\n\nWarning signs: chest tightness, pain in arm or jaw, sweating, nausea, shortness of breath"
+      ]
+    },
+    {
+      "tag": "diabetic_emergency",
+      "description": "diabetes low blood sugar hypoglycemia shaking confused insulin reaction faint glucose",
+      "responses": [
+        "🍬 For low blood sugar emergency:\n1. If conscious — give fast-acting sugar immediately:\n   • 4 glucose tablets, OR half cup fruit juice, OR 1 tablespoon sugar\n2. Have them sit or lie down safely\n3. Wait 15 minutes — check if they feel better\n4. If improved — give a small snack\n5. If unconscious — do NOT give anything by mouth\n6. Call emergency services immediately if unconscious"
+      ]
+    },
+    {
+      "tag": "allergic_reaction",
+      "description": "allergy anaphylaxis hives swelling throat difficulty breathing rash epipen reaction",
+      "responses": [
+        "⚠️ For severe allergic reaction:\n1. Call emergency services IMMEDIATELY\n2. Use EpiPen if available — outer thigh\n3. Have person lie down with legs elevated\n4. If they stop breathing — begin CPR\n5. Second EpiPen dose after 5-15 minutes if no improvement\n6. Always go to hospital even if symptoms improve\n\nSigns: hives, swelling of face or throat, difficulty breathing, rapid pulse, dizziness"
+      ]
+    },
+    {
+      "tag": "heatstroke",
+      "description": "heatstroke sunstroke overheating high body temperature hot collapsed heat exhaustion",
+      "responses": [
+        "☀️ For heatstroke:\n1. Move person immediately to a cool shaded area\n2. Call emergency services — heatstroke is life threatening\n3. Cool rapidly — apply cool water, fan, ice packs on neck and armpits\n4. If conscious and not vomiting — give cool water to sip\n5. If unconscious — place in recovery position\n6. Continue cooling until emergency help arrives\n\nSigns: temp above 40°C, confusion, hot dry skin, no sweating"
+      ]
+    },
+    {
+      "tag": "road_accident",
+      "description": "road accident car crash vehicle collision injury victim emergency highway",
+      "responses": [
+        "🚗 At a road accident:\n1. Ensure your own safety first — park safely, turn on hazard lights\n2. Call emergency services immediately\n3. Do NOT move the injured person unless there is fire\n4. Check responsiveness — talk to them calmly\n5. Control any bleeding with firm pressure\n6. If unconscious and breathing — recovery position\n7. If not breathing — begin CPR\n8. Do NOT remove helmets unless airway is blocked\n9. Stay with the person until help arrives"
+      ]
+    },
+    {
+      "tag": "electrical_shock",
+      "description": "electric shock electrocution live wire current lightning voltage injury",
+      "responses": [
+        "⚡ For electrical shock:\n1. Do NOT touch the person while still in contact with electricity\n2. Turn off the power source immediately\n3. If power cannot be turned off — use dry non-conductive object to push them away\n4. Once safe — check responsiveness\n5. Call emergency services immediately\n6. If not breathing — begin CPR\n7. ALL electrical shock victims need hospital evaluation even if they seem fine"
+      ]
+    },
+    {
+      "tag": "drowning",
+      "description": "drowning water pool river rescue breathing submerged pulled out near drowning",
+      "responses": [
+        "🌊 For drowning:\n1. Do NOT jump in unless trained — throw a rope or float instead\n2. Call emergency services immediately\n3. Once safely out of water — check responsiveness\n4. If not breathing — give 5 rescue breaths first then begin CPR\n5. Continue until help arrives\n6. Always take to hospital even if person recovers\n   Secondary drowning can occur hours later"
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "description": "anxiety panic attack stress worry fear overwhelmed racing heart nervous dread scared",
+      "responses": [
+        "💚 For anxiety and panic:\n\nTry the 5-4-3-2-1 grounding technique:\n• Name 5 things you can SEE right now\n• 4 things you can physically TOUCH\n• 3 things you can HEAR\n• 2 things you can SMELL\n• 1 thing you can TASTE\n\nThen try box breathing:\n• Breathe IN for 4 counts\n• HOLD for 4 counts\n• Breathe OUT for 4 counts\n• Repeat 4 times\n\nRemember: You are safe. This feeling is temporary and WILL pass. 💙"
+      ]
+    },
+    {
+      "tag": "depression",
+      "description": "depression sad hopeless empty worthless no energy numb dark meaningless despair low mood",
+      "responses": [
+        "💙 I hear you, and I'm really glad you're talking about this.\n\nWhat you're feeling is real and valid. Depression is not a weakness.\n\nRight now try these small steps:\n1. Do one tiny thing — drink water, step outside for 2 minutes\n2. Talk to one person you trust today\n3. Avoid isolating yourself completely\n4. Try to maintain basic routine — sleep, eat, move a little\n5. Be gentle with yourself — you don't have to fix everything today\n\nPlease consider reaching out to a mental health professional. You deserve support. You are not alone. 💙"
+      ]
+    },
+    {
+      "tag": "grief",
+      "description": "grief loss death mourning bereavement loved one passed away devastated missing",
+      "responses": [
+        "💙 I'm so deeply sorry for your loss.\n\nThere is no right or wrong way to grieve. Everything you're feeling — sadness, anger, numbness — is completely normal.\n\nThings that may help:\n1. Allow yourself to feel — don't suppress emotions\n2. Talk about your loved one with someone who knew them\n3. Take care of basic needs — eat, sleep, drink water\n4. Let people help you — it's okay to accept support\n5. Be patient with yourself — grief takes time\n\nYou don't have to get over it. You just learn to carry it differently. 💙"
+      ]
+    },
+    {
+      "tag": "loneliness",
+      "description": "lonely alone isolated no friends disconnected nobody left out unwanted invisible",
+      "responses": [
+        "💙 Loneliness is painful and what you're feeling is real and it matters.\n\nYou reached out right now — that took courage.\n\nSteps that can help:\n1. Send one message to someone you haven't spoken to in a while\n2. Join a group around something you enjoy\n3. Volunteer somewhere — connection comes through helping others\n4. Practice self-compassion — talk to yourself like a good friend\n5. Limit social media — it shows highlight reels not real life\n\nLoneliness doesn't mean something is wrong with you. Connection is possible — one small step at a time. 💙"
+      ]
+    },
+    {
+      "tag": "anger",
+      "description": "anger rage furious temper frustrated explode aggressive irritated losing control violent",
+      "responses": [
+        "😤 Feeling angry is completely human. The goal is managing it safely.\n\nIn the moment:\n1. PAUSE — remove yourself from the situation\n2. Breathe deeply — 4 counts in, 6 counts out\n3. Count slowly to 10 before responding\n4. Name it — say to yourself 'I feel angry because...'\n5. Physical release — fast walk, push-ups, cold water on face\n\nLonger term:\n• Identify your triggers\n• Regular stress reduction — exercise, sleep, mindfulness\n• Consider a counselor if anger is affecting relationships\n\nAnger often comes from pain underneath. Be curious about what's really hurting. 💙"
+      ]
+    },
+    {
+      "tag": "self_esteem",
+      "description": "self esteem confidence worthless failure not enough inferior doubt ugly insecure self worth",
+      "responses": [
+        "💙 You are enough exactly as you are right now.\n\nLow self-esteem is NOT a reflection of your true worth.\n\nTry these daily:\n1. Write 3 things you did well today — no matter how small\n2. Challenge negative thoughts — ask 'Is this 100% true?'\n3. Stop comparing your inside to other people's outside\n4. Do one thing daily that makes you proud\n5. Speak to yourself like you'd speak to your best friend\n\nSelf-esteem is built through small wins repeated daily. You are worthy of kindness — especially from yourself. 💙"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "description": "motivation lazy procrastinate stuck no drive ambition energy interest purpose goal",
+      "responses": [
+        "⚡ Lack of motivation is common — and often a signal not a flaw.\n\nTry these:\n1. Start impossibly small — just 2 minutes of the task\n2. Remove friction — prep your workspace, open the document\n3. Use 5-4-3-2-1 rule — count down and physically move\n4. Break tasks into tiny pieces — 'read one page' not 'study'\n5. Reward yourself immediately after small completions\n6. Check your basics — sleep, hydration, and nutrition fuel motivation\n\nNote: If this has lasted weeks, it may be depression — please talk to someone. 💙"
+      ]
+    },
+    {
+      "tag": "relationship_issues",
+      "description": "relationship breakup heartbreak partner fight love toxic marriage divorce couple conflict",
+      "responses": [
+        "💙 Relationship pain is some of the deepest pain there is. I'm here with you.\n\nFor conflict:\n1. Choose the right time to talk — not mid-argument\n2. Use 'I feel' statements — not 'You always'\n3. Listen to understand not just to respond\n4. Take space when emotions are very high\n\nFor breakups:\n1. Allow yourself to grieve — it is a real loss\n2. Limit contact initially — it helps healing\n3. Lean on trusted friends and family\n4. Focus on rediscovering yourself\n\nHeartbreak heals. It doesn't feel like it now — but it does. 💙"
+      ]
+    },
+    {
+      "tag": "suicidal_thoughts",
+      "description": "suicide end life die self harm kill hurt myself no reason live hopeless desperate crisis",
+      "responses": [
+        "💙 I'm really glad you told me this. Your life has value — even when it doesn't feel that way.\n\nPlease do these right now:\n1. Tell someone you trust what you just told me\n2. Remove yourself from any means of harm\n3. Go somewhere safe — with other people\n\nThese feelings CAN get better with the right support.\n\nPlease reach out to a crisis helpline — confidential, free, 24/7:\n• iCall (India): 9152987821\n• Vandrevala Foundation: 1860-2662-345\n\nYou matter more than you know right now. Please stay. 💙"
+      ]
+    },
+    {
+      "tag": "default",
+      "description": "",
+      "responses": [
+        "I'm not sure I understand that. I can help with:\n• 🩸 First Aid (bleeding, burns, CPR, fractures)\n• 🌍 Disasters (earthquake, flood, fire, cyclone)\n• 🏥 Health (fever, dehydration, heart attack, heatstroke)\n• 🛡️ Safety (accidents, drowning, electrical shock)\n• 💚 Mental Health (anxiety, depression, grief, anger)\n• 💙 Emotional Support (loneliness, self-esteem, motivation, relationships)\n\nTry asking something like 'I feel anxious' or 'first aid for bleeding'.",
+        "I didn't quite get that. I'm here to help with emergencies, health, and emotional support. 💙"
+      ]
+    }
+  ]
+}
